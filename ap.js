@@ -9,3 +9,10 @@ sumbit.addEventListener("click", function (){
   parra.innerText = produc*cantidad;
 })
 // ASDadadad
+// sd
+// 
+
+
+// ssad
+// 
+// sas
