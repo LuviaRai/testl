@@ -8,3 +8,4 @@ sumbit.addEventListener("click", function (){
   if (produc==1){}
   parra.innerText = produc*cantidad;
 })
+// ASDadadad
