@@ -1,0 +1,43 @@
+1. Estructura de páginas:
+   - Se optó por un sitio de dos páginas: "Inicio" y "Contacto" para mantenerlo simple y organizado.
+   - "Inicio" contiene la presentación del sitio y los productos para compra.
+   - "Contacto" permite que los usuarios envíen mensajes al administrador del sitio.
+
+2. Cabecera y navegación:
+   - Se incluyó una imagen de título en ambas páginas (assets/pan.jpg) para reforzar la identidad visual.
+   - Los botones de navegación (Inicio y Contacto) fueron estilizados como botones modernos con hover y botón activo para mejorar la experiencia del usuario y la claridad de navegación.
+
+3. Fondo y estilo general:
+   - Se eligió un fondo gris (#e0e0e0) para toda la página porque proporciona un contraste suave con las cajas de productos y los formularios, evitando que el sitio se vea demasiado brillante.
+   - Los textos en negro o gris oscuro (#333) aseguran legibilidad sobre el fondo gris.
+
+4. Sección de productos y cajas de compra:
+   - Se añadieron 4 productos: pan, torta, harina y galleta, cada uno con su imagen correspondiente en /assets/.
+   - Las imágenes de los productos tienen un tamaño uniforme  usando CSS con object-fit: cover, para mantener consistencia visual.
+   - Cada producto tiene un input numérico para seleccionar la cantidad.
+   - El botón "Comprar" suma las cantidades de cada producto multiplicadas por su precio y muestra un alert y un texto en la página con el total.
+   - Se centraron las cajas de productos con flexbox para que se vean alineadas y estéticamente agradables.
+
+5. Contacto:
+   - Se agregó un formulario con nombre, correo electrónico y mensaje.
+   - Se estilizó con fondo blanco y bordes redondeados para que destaque sobre el fondo gris.
+   - Se busca que sea fácil de usar y legible, con suficiente espacio entre los campos.
+
+6. Uso de HTML y CSS:
+   - Se usaron etiquetas semánticas como <header>, <main>, <section>, <footer> para estructurar el contenido correctamente.
+   - Se utilizó CSS externo (styles.css) para mantener separación entre contenido y diseño, facilitando futuras modificaciones.
+   - Se aplicaron sombras, bordes redondeados y transiciones para modernizar el aspecto del sitio.
+
+7. Uso de JavaScript:
+   - Se separó el script en script.js para mantener limpio el HTML.
+   - Se implementó la funcionalidad de suma de productos al hacer click en "Comprar".
+   - Se manejan valores nulos o no ingresados para evitar errores y mostrar alertas informativas.
+
+8. Uso de símbolos y caracteres especiales:
+   - Se utilizó &copy; en el footer para mostrar correctamente el símbolo de copyright en todos los navegadores.
+   - Esto garantiza compatibilidad y profesionalismo en la presentación del sitio.
+
+9. Decisiones de diseño adicionales:
+   - Botones de navegación y botones de acción con efectos hover para mejorar la interacción del usuario.
+   - Uso de flexbox y centrado para mantener la consistencia visual en distintos tamaños de pantalla.
+   - Estructura simple y clara para que el usuario pueda encontrar rápidamente los productos y la sección de contacto.

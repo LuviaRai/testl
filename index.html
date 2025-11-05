@@ -1,26 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Panaderia</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <h2>Productos</h2>
-        <label for="produc">Producto:</label>
-        <p>1: Lumia    500</p>
-        
-        <p>2: Zens     400</p>
-        <p>3: Prime    550</p>
-        <p>Eleijir producto y cantidad a comprar</p>
-        <input type="text" id="produc" name="produc"  required>
+    <header>
+        <div class="header-imagen">
+            <img src="assets/pan.jpg" alt="Imagen de Título - Pan">
+        </div>
 
-        <label for="cantidad">Cuantos:</label>
-        <input type="text" id="cantidad" name="cantidad" >
-        <br><br>
-        <button type="submit" id="sumbit">Comprar</button>
-        <button type="reset">Cancelar</button>
-        <p id="parra"></p>
+        <h1>Panaderia Don Fermin</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="activo">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <p class="intro">
+        Panadería de barrio con productos frescos todos los días. ¡Bienvenidos!
+      </p>
+        <section>
+            <h2>Nuestros productos</h2>
+            <div class="productos">
+                <div class="producto">
+                    <img src="assets/pan.jpg" alt="Pan artesanal">
+                    <p>Pan artesanal - $1500</p>
+                    <input type="number" id="prod1" value="0" min="0">
+                </div>
+
+                <div class="producto">
+                    <img src="assets/torta.jpg" alt="Torta casera">
+                    <p>Torta casera - $8000</p>
+                    <input type="number" id="prod2" value="0" min="0">
+                </div>
+
+                <div class="producto">
+                    <img src="assets/harina.jpg" alt="Harina premium">
+                    <p>Harina premium - $20000</p>
+                    <input type="number" id="prod3" value="0" min="0">
+                </div>
+
+                <div class="producto">
+                    <img src="assets/galleta.jpg" alt="Galletas dulces">
+                    <p>Galletas dulces - $500</p>
+                    <input type="number" id="prod4" value="0" min="0">
+                </div>
+            </div>
+
+            <button id="btnComprar">Comprar</button>
+            <p id="resultado"></p>
+        </section>
+        </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros">
+      <h2>Nosotros</h2>
+      <p>
+        Somos una panadería artesanal ubicada en General Madariaga. Priorizamos materias primas
+        de calidad y recetas tradicionales. Abrimos de lunes a sábado de 7:30 a 20:00.
+      </p>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>Direccion: Belgrano 333 Madariaga <br>Alejandro cas</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-<script src="ap.js"></script>
 </html>

@@ -1,6 +1,6 @@
 # El buen panadero blanco
 
-Travesia hacia una buena pepa
+Travecia hacia una buena pepa
 
 ## Solo gente  interesada de buen saber
 
